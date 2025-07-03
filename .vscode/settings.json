@@ -4,6 +4,7 @@
         "queue": "cpp",
         "stack": "cpp",
         "string": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "new": "cpp"
     }
 }
