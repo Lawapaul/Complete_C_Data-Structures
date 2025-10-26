@@ -5,6 +5,9 @@
         "stack": "cpp",
         "string": "cpp",
         "vector": "cpp",
-        "new": "cpp"
+        "new": "cpp",
+        "__split_buffer": "cpp",
+        "deque": "cpp",
+        "list": "cpp"
     }
 }

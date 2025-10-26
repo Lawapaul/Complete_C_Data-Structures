@@ -44,8 +44,8 @@ class List{
         return;
     }
     void reverse(){
-        Node* prev=NULL;
         Node* current=head;
+        Node* prev=NULL;
         Node* next=NULL;
         while(current!=NULL){
             next=current->next;

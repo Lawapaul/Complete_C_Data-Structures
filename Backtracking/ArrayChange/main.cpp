@@ -9,12 +9,12 @@ void print(int arr[],int size){
 }
 void change(int arr[],int size,int i){
     if(i==size){
-        print(arr,size);
+        print(arr,5);
         return;
     }
     arr[i]=i+1;
     change(arr,size,i+1);
-    arr[i]-=2;
+    arr[i]=i-2;
 }
 int main(){
     int arr[5] = {1,2,3,4,5};
